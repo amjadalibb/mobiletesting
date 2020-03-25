@@ -73,7 +73,7 @@ adb devices
 	+ Update below accordingly
 ```
 PLATFORM_NAME, PLATFORM_VERSION, DEVICE_NAME, UDID, appPackage, appActivity
-``
+```
 
 #### How to run
 
