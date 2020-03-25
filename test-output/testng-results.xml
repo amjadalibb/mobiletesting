@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Plus500RegressionWithReports" duration-ms="119154" started-at="2020-03-25T10:24:00Z" finished-at="2020-03-25T10:26:00Z">
+    <groups>
+      <group name="All">
+        <method signature="LoginLogoutTests.loginTest()[pri:3, instance:tests.LoginLogoutTests@21507a04]" name="loginTest" class="tests.LoginLogoutTests"/>
+        <method signature="LoginLogoutTests.logoutTestAfterLogin()[pri:4, instance:tests.LoginLogoutTests@21507a04]" name="logoutTestAfterLogin" class="tests.LoginLogoutTests"/>
+        <method signature="LoginLogoutTests.logoutTestAfterSignup()[pri:2, instance:tests.LoginLogoutTests@21507a04]" name="logoutTestAfterSignup" class="tests.LoginLogoutTests"/>
+        <method signature="LoginLogoutTests.signupTest()[pri:1, instance:tests.LoginLogoutTests@21507a04]" name="signupTest" class="tests.LoginLogoutTests"/>
+      </group> <!-- All -->
+    </groups>
+    <test name="LoginLogoutTests" duration-ms="119154" started-at="2020-03-25T10:24:00Z" finished-at="2020-03-25T10:26:00Z">
+      <class name="tests.LoginLogoutTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginLogoutTests@21507a04]" name="setup" is-config="true" duration-ms="22861" started-at="2020-03-25T10:23:38Z" finished-at="2020-03-25T10:24:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="signupTest()[pri:1, instance:tests.LoginLogoutTests@21507a04]" name="signupTest" duration-ms="10294" started-at="2020-03-25T10:24:00Z" description="Signup User and login" finished-at="2020-03-25T10:24:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupTest -->
+        <test-method status="PASS" signature="logoutTestAfterSignup()[pri:2, instance:tests.LoginLogoutTests@21507a04]" name="logoutTestAfterSignup" duration-ms="45088" started-at="2020-03-25T10:24:11Z" description="Logout User after Signup" finished-at="2020-03-25T10:24:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTestAfterSignup -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:tests.LoginLogoutTests@21507a04]" name="loginTest" duration-ms="34097" started-at="2020-03-25T10:24:56Z" description="Login User after Create" finished-at="2020-03-25T10:25:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="logoutTestAfterLogin()[pri:4, instance:tests.LoginLogoutTests@21507a04]" name="logoutTestAfterLogin" duration-ms="29655" started-at="2020-03-25T10:25:30Z" description="Logout User after Login" finished-at="2020-03-25T10:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTestAfterLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.LoginLogoutTests@21507a04]" name="teardown" is-config="true" duration-ms="1790" started-at="2020-03-25T10:26:00Z" finished-at="2020-03-25T10:26:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LoginLogoutTests -->
+    </test> <!-- LoginLogoutTests -->
+  </suite> <!-- Plus500RegressionWithReports -->
+</testng-results>
