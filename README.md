@@ -82,4 +82,4 @@ PLATFORM_NAME, PLATFORM_VERSION, DEVICE_NAME, UDID, appPackage, appActivity
 
 #### Contact Me
 
-+ You can contact me for any questions on Amjad Ali (amjadali_bb@hotmail.com)
++ You can contact me for any questions on my email (amjadali_bb@hotmail.com)
