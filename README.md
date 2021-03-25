@@ -1,4 +1,4 @@
-### Assignment to test Signup, Login, Logout functionality of Native Android App
+### Test automation framework to test Signup, Login, Logout functionality of Native Android App
 
 + Android App: Plus500
 + Android Platform Version: 6.0.1
